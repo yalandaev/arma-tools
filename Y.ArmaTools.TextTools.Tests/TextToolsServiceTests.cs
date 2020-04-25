@@ -14,7 +14,7 @@ namespace Y.ArmaTools.TextTools.Tests
             ITextToolsService service = new TextToolsService();
             var testStrings = GetTestStrings();
 
-            var result = service.GenerateIncrementStringsByTemplate(testStrings.Template, 2, 5);
+            var result = service.GenerateIncrementStringsByTemplate(testStrings.Template, 3, 6);
             Assert.Equal(testStrings.Expected, result);
         }
 
