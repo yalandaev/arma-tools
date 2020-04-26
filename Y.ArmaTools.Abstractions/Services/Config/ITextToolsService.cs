@@ -1,4 +1,4 @@
-namespace Y.ArmaTools.Abstractions
+namespace Y.ArmaTools.Abstractions.Services.Config
 {
     public interface ITextToolsService
     {
